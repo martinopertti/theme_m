@@ -80,13 +80,13 @@ ggplot(hist_df, aes(lifeExp)) +
 # Grafico con tema customizado
 ggplot(hist_df, aes(lifeExp)) +
   geom_histogram(binwidth = 5, colour = "white", fill = "seagreen") +
-  theme_m() +
   scale_x_continuous(limits = c(35, 95),
                      breaks = seq(40, 90, by = 10),
                      labels = c("40", "50", "60", "70", "80", "90 años")) +
   labs(title = "Variación en esperanza de vida en el mundo",
        subtitle = "Distribución de la esperanza de vida en 2007",
        caption = "Fuente: Gapminder \n Adaptación de BBC Visual and Data Journalism",
-       y = "Número de países", x = "Expectativa de vida")
+       y = "Número de países", x = "Expectativa de vida") + 
+  theme_m() 
 
 
