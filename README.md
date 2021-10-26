@@ -1,5 +1,5 @@
 # theme_m
-## Tema personalizado de ggplot
+## Tema personalizado de ggplot2
 
 Código para utilizar un tema personalizado de ggplot2, simple y prolijo (supongo). 
 
